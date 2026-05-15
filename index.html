@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Document</title>
 </head>
 
@@ -20,9 +21,18 @@
 
 <!-- Task: Graph implementation and css styling -->
 <!-- Haydens code Block START -->
-    <div class="container" id="graphContainer">
-
-    </div>
+    <header class="navigationBar"></header>
+    <div class="container" id="dashboardContainer">
+        <div class="card" id="graphCard">
+            <h2>Graph section</h2>
+            <canvas id="usageGraph"></canvas>
+            <button id="graphDropdown"></button>
+            <div class="dropdownContent">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
 <!-- Haydens code Block END -->
 
 
@@ -48,6 +58,7 @@
 
 <!-- Matthews code Block END -->
 
+    </div>
 
 <script src="script.js"></script>
 
